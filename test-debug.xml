@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AppiumSuite">
+<listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+    <test name="Action Event Mobile Suite">
+    <classes>
+        <class name="tests.LoginTest"/>
+        <class name="tests.CheckChangeEventFormTest"/>
+        <class name="tests.ONButtonClickEventFormTest"/>
+        
+    </classes>
+</test>
+</suite>
