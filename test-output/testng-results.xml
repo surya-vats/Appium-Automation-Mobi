@@ -1,61 +1,597 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="2" total="70" passed="62" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-12T17:15:09 IST" name="Default suite" finished-at="2026-11-12T17:18:17 IST" duration-ms="188285">
+  <suite started-at="2026-11-23T15:50:58 IST" name="AppiumSuite" finished-at="2026-11-23T16:06:03 IST" duration-ms="904354">
     <groups>
     </groups>
-    <test started-at="2026-11-12T17:15:09 IST" name="Default test" finished-at="2026-11-12T17:18:17 IST" duration-ms="188285">
-      <class name="tests.GridTextAutoFormTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GridTextAutoFormTest@305b7c14]" started-at="2026-11-12T17:14:39 IST" name="setUp" finished-at="2026-11-12T17:15:09 IST" duration-ms="29654" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="navigateToForm()[pri:0, instance:tests.GridTextAutoFormTest@305b7c14]" started-at="2026-11-12T17:15:09 IST" name="navigateToForm" finished-at="2026-11-12T17:16:23 IST" duration-ms="73879" status="PASS">
+    <test started-at="2026-11-23T15:50:58 IST" name="Action Event Mobile Suite" finished-at="2026-11-23T16:06:03 IST" duration-ms="904354">
+      <class name="tests.OnRadioButtonClickFormTest">
+        <test-method is-config="true" signature="navigateToForm()[pri:0, instance:tests.OnRadioButtonClickFormTest@548e6d58]" started-at="2026-11-23T16:00:17 IST" name="navigateToForm" finished-at="2026-11-23T16:00:19 IST" duration-ms="1963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToForm -->
-        <test-method signature="verifyInActiveDisablesTextbox()[pri:1, instance:tests.GridTextAutoFormTest@305b7c14]" started-at="2026-11-12T17:16:23 IST" name="verifyInActiveDisablesTextbox" finished-at="2026-11-12T17:16:34 IST" duration-ms="11000" status="PASS">
+        <test-method signature="verifyInActiveBDisablesTextbox()[pri:1, instance:tests.OnRadioButtonClickFormTest@548e6d58]" started-at="2026-11-23T16:00:19 IST" name="verifyInActiveBDisablesTextbox" finished-at="2026-11-23T16:00:39 IST" duration-ms="19991" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Textbox should be disabled after selecting InActive B expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Textbox should be disabled after selecting InActive B expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.OnRadioButtonClickFormTest.verifyInActiveBDisablesTextbox(OnRadioButtonClickFormTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyInActiveDisablesTextbox -->
-        <test-method signature="verifyActiveReEnablesTextbox()[pri:2, instance:tests.GridTextAutoFormTest@305b7c14]" started-at="2026-11-12T17:16:34 IST" name="verifyActiveReEnablesTextbox" finished-at="2026-11-12T17:16:49 IST" duration-ms="14835" status="PASS">
+        </test-method> <!-- verifyInActiveBDisablesTextbox -->
+        <test-method signature="verifyActiveAReEnablesTextbox()[pri:2, instance:tests.OnRadioButtonClickFormTest@548e6d58]" started-at="2026-11-23T16:00:39 IST" name="verifyActiveAReEnablesTextbox" finished-at="2026-11-23T16:00:50 IST" duration-ms="10791" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyActiveReEnablesTextbox -->
-        <test-method signature="verifyHideButtonHidesTextbox()[pri:3, instance:tests.GridTextAutoFormTest@305b7c14]" started-at="2026-11-12T17:16:49 IST" name="verifyHideButtonHidesTextbox" finished-at="2026-11-12T17:16:58 IST" duration-ms="9050" status="PASS">
+        </test-method> <!-- verifyActiveAReEnablesTextbox -->
+        <test-method signature="verifyOpenPageARadioOpensNewPage()[pri:3, instance:tests.OnRadioButtonClickFormTest@548e6d58]" started-at="2026-11-23T16:00:50 IST" name="verifyOpenPageARadioOpensNewPage" finished-at="2026-11-23T16:01:07 IST" duration-ms="17001" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHideButtonHidesTextbox -->
-        <test-method signature="verifyShowButtonShowsTextbox()[pri:4, instance:tests.GridTextAutoFormTest@305b7c14]" started-at="2026-11-12T17:16:58 IST" name="verifyShowButtonShowsTextbox" finished-at="2026-11-12T17:17:08 IST" duration-ms="10559" status="PASS">
+        </test-method> <!-- verifyOpenPageARadioOpensNewPage -->
+        <test-method signature="verifyOpenDialogARadioOpensDialog()[pri:4, instance:tests.OnRadioButtonClickFormTest@548e6d58]" started-at="2026-11-23T16:01:07 IST" name="verifyOpenDialogARadioOpensDialog" finished-at="2026-11-23T16:01:20 IST" duration-ms="13168" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyShowButtonShowsTextbox -->
-        <test-method signature="verifyOpenPageOpensNewPageAndCloses()[pri:5, instance:tests.GridTextAutoFormTest@305b7c14]" started-at="2026-11-12T17:17:08 IST" name="verifyOpenPageOpensNewPageAndCloses" finished-at="2026-11-12T17:17:34 IST" duration-ms="26148" status="PASS">
+        </test-method> <!-- verifyOpenDialogARadioOpensDialog -->
+        <test-method signature="verifyHideARadioHidesTextbox()[pri:5, instance:tests.OnRadioButtonClickFormTest@548e6d58]" started-at="2026-11-23T16:01:20 IST" name="verifyHideARadioHidesTextbox" finished-at="2026-11-23T16:01:39 IST" duration-ms="18667" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyOpenPageOpensNewPageAndCloses -->
-        <test-method signature="verifyOpenCloseDialogOpensAndCloses()[pri:6, instance:tests.GridTextAutoFormTest@305b7c14]" started-at="2026-11-12T17:17:34 IST" name="verifyOpenCloseDialogOpensAndCloses" finished-at="2026-11-12T17:17:46 IST" duration-ms="11958" status="PASS">
+        </test-method> <!-- verifyHideARadioHidesTextbox -->
+        <test-method signature="verifyShowARadioShowsTextbox()[pri:6, instance:tests.OnRadioButtonClickFormTest@548e6d58]" started-at="2026-11-23T16:01:39 IST" name="verifyShowARadioShowsTextbox" finished-at="2026-11-23T16:01:49 IST" duration-ms="9795" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyOpenCloseDialogOpensAndCloses -->
-        <test-method signature="verifyGetDataShowsFifty()[pri:7, instance:tests.GridTextAutoFormTest@305b7c14]" started-at="2026-11-12T17:17:46 IST" name="verifyGetDataShowsFifty" finished-at="2026-11-12T17:17:52 IST" duration-ms="5182" status="PASS">
+        </test-method> <!-- verifyShowARadioShowsTextbox -->
+        <test-method signature="verifyFormulaAShowsValue()[pri:7, instance:tests.OnRadioButtonClickFormTest@548e6d58]" started-at="2026-11-23T16:01:49 IST" name="verifyFormulaAShowsValue" finished-at="2026-11-23T16:01:58 IST" duration-ms="9315" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyGetDataShowsFifty -->
-        <test-method signature="verifyFormulaAddsFifteen()[pri:8, instance:tests.GridTextAutoFormTest@305b7c14]" started-at="2026-11-12T17:17:52 IST" name="verifyFormulaAddsFifteen" finished-at="2026-11-12T17:18:05 IST" duration-ms="13113" status="PASS">
+        </test-method> <!-- verifyFormulaAShowsValue -->
+        <test-method signature="verifyPostformulaAShowsValue()[pri:8, instance:tests.OnRadioButtonClickFormTest@548e6d58]" started-at="2026-11-23T16:01:58 IST" name="verifyPostformulaAShowsValue" finished-at="2026-11-23T16:02:14 IST" duration-ms="15674" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFormulaAddsFifteen -->
-        <test-method signature="verifyPostFormulaAddsFifteen()[pri:9, instance:tests.GridTextAutoFormTest@305b7c14]" started-at="2026-11-12T17:18:05 IST" name="verifyPostFormulaAddsFifteen" finished-at="2026-11-12T17:18:17 IST" duration-ms="12472" status="PASS">
+        </test-method> <!-- verifyPostformulaAShowsValue -->
+        <test-method signature="verifyGetDataForRadioAShowsValue()[pri:9, instance:tests.OnRadioButtonClickFormTest@548e6d58]" started-at="2026-11-23T16:02:14 IST" name="verifyGetDataForRadioAShowsValue" finished-at="2026-11-23T16:02:40 IST" duration-ms="26465" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[LabelforGetdata should show 100 after GetDataforRadio A expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: LabelforGetdata should show 100 after GetDataforRadio A expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.OnRadioButtonClickFormTest.verifyGetDataForRadioAShowsValue(OnRadioButtonClickFormTest.java:209)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPostFormulaAddsFifteen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GridTextAutoFormTest@305b7c14]" started-at="2026-11-12T17:18:17 IST" name="tearDown" finished-at="2026-11-12T17:18:18 IST" duration-ms="296" status="PASS">
+        </test-method> <!-- verifyGetDataForRadioAShowsValue -->
+      </class> <!-- tests.OnRadioButtonClickFormTest -->
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@7a675056]" started-at="2026-11-23T15:50:31 IST" name="setUp" finished-at="2026-11-23T15:50:58 IST" duration-ms="27069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:1, instance:tests.LoginTest@7a675056]" started-at="2026-11-23T15:50:59 IST" name="verifyLogin" finished-at="2026-11-23T15:51:35 IST" duration-ms="36783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@7a675056]" started-at="2026-11-23T16:06:03 IST" name="tearDown" finished-at="2026-11-23T16:06:03 IST" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.OnLabelClickTestingFormTest">
+        <test-method is-config="true" signature="navigateToForm()[pri:0, instance:tests.OnLabelClickTestingFormTest@2f465398]" started-at="2026-11-23T15:59:32 IST" name="navigateToForm" finished-at="2026-11-23T15:59:37 IST" duration-ms="4804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToForm -->
+        <test-method signature="verifyInActiveLabelDisablesTextbox()[pri:1, instance:tests.OnLabelClickTestingFormTest@2f465398]" started-at="2026-11-23T15:59:37 IST" name="verifyInActiveLabelDisablesTextbox" finished-at="2026-11-23T15:59:39 IST" duration-ms="1955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInActiveLabelDisablesTextbox -->
+        <test-method signature="verifyActiveLabelReEnablesTextbox()[pri:2, instance:tests.OnLabelClickTestingFormTest@2f465398]" started-at="2026-11-23T15:59:39 IST" name="verifyActiveLabelReEnablesTextbox" finished-at="2026-11-23T15:59:41 IST" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActiveLabelReEnablesTextbox -->
+        <test-method signature="verifyOpenPageLabelBehavior()[pri:3, instance:tests.OnLabelClickTestingFormTest@2f465398]" started-at="2026-11-23T15:59:41 IST" name="verifyOpenPageLabelBehavior" finished-at="2026-11-23T15:59:48 IST" duration-ms="6830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenPageLabelBehavior -->
+        <test-method signature="verifyOpenAndCloseLabelDialog()[pri:4, instance:tests.OnLabelClickTestingFormTest@2f465398]" started-at="2026-11-23T15:59:48 IST" name="verifyOpenAndCloseLabelDialog" finished-at="2026-11-23T16:00:01 IST" duration-ms="12568" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Dialog should open after clicking OpenAndClose label expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Dialog should open after clicking OpenAndClose label expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.OnLabelClickTestingFormTest.verifyOpenAndCloseLabelDialog(OnLabelClickTestingFormTest.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenAndCloseLabelDialog -->
+        <test-method signature="verifyHideLabelHidesTestingTextbox()[pri:5, instance:tests.OnLabelClickTestingFormTest@2f465398]" started-at="2026-11-23T16:00:01 IST" name="verifyHideLabelHidesTestingTextbox" finished-at="2026-11-23T16:00:13 IST" duration-ms="11078" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for Page.OnLabelClickTestingFormPage$$Lambda$666/0x000001af8634e7d8@504b8705 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Desktop\All APK\Appsavyd..., appium:appActivity: com.mobi.datadesignstudio.F..., appium:appPackage: com.mobi.dds_iuv, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Desktop\All APK\Appsavyd..., appActivity: com.mobi.datadesignstudio.F..., appPackage: com.mobi.dds_iuv, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Realme P4, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: realme, appium:deviceModel: RMX5110, appium:deviceName: EYXCV4DETWKFVSQ4, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2392, appium:deviceUDID: EYXCV4DETWKFVSQ4, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 3, appium:platformVersion: 16, appium:statBarHeight: 110, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 110, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 0d054c73-ea96-482a-9e3a-e739c2cf0144]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for Page.OnLabelClickTestingFormPage$$Lambda$666/0x000001af8634e7d8@504b8705 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Desktop\All APK\Appsavyd..., appium:appActivity: com.mobi.datadesignstudio.F..., appium:appPackage: com.mobi.dds_iuv, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Desktop\All APK\Appsavyd..., appActivity: com.mobi.datadesignstudio.F..., appPackage: com.mobi.dds_iuv, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Realme P4, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: realme, appium:deviceModel: RMX5110, appium:deviceName: EYXCV4DETWKFVSQ4, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2392, appium:deviceUDID: EYXCV4DETWKFVSQ4, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 3, appium:platformVersion: 16, appium:statBarHeight: 110, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 110, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 0d054c73-ea96-482a-9e3a-e739c2cf0144
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Page.OnLabelClickTestingFormPage.waitForTestingTextboxVisible(OnLabelClickTestingFormPage.java:209)
+at tests.OnLabelClickTestingFormTest.verifyHideLabelHidesTestingTextbox(OnLabelClickTestingFormTest.java:111)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHideLabelHidesTestingTextbox -->
+        <test-method signature="verifyShowLabelShowsTestingTextbox()[pri:6, instance:tests.OnLabelClickTestingFormTest@2f465398]" started-at="2026-11-23T16:00:13 IST" name="verifyShowLabelShowsTestingTextbox" finished-at="2026-11-23T16:00:14 IST" duration-ms="684" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TestingTestbox should still be hidden before clicking Show expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TestingTestbox should still be hidden before clicking Show expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at tests.OnLabelClickTestingFormTest.verifyShowLabelShowsTestingTextbox(OnLabelClickTestingFormTest.java:122)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShowLabelShowsTestingTextbox -->
+        <test-method signature="verifyFormulaLabelAddsSixty()[pri:7, instance:tests.OnLabelClickTestingFormTest@2f465398]" started-at="2026-11-23T16:00:14 IST" name="verifyFormulaLabelAddsSixty" finished-at="2026-11-23T16:00:17 IST" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormulaLabelAddsSixty -->
+      </class> <!-- tests.OnLabelClickTestingFormTest -->
+      <class name="tests.OnGridButtonClickFormTest">
+        <test-method is-config="true" signature="navigateToForm()[pri:0, instance:tests.OnGridButtonClickFormTest@313b2ea6]" started-at="2026-11-23T15:54:59 IST" name="navigateToForm" finished-at="2026-11-23T15:55:01 IST" duration-ms="1829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToForm -->
+        <test-method signature="verifyInActiveIconDisablesTextbox()[pri:1, instance:tests.OnGridButtonClickFormTest@313b2ea6]" started-at="2026-11-23T15:55:01 IST" name="verifyInActiveIconDisablesTextbox" finished-at="2026-11-23T15:55:37 IST" duration-ms="35495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInActiveIconDisablesTextbox -->
+        <test-method signature="verifyActiveIconReEnablesTextbox()[pri:2, instance:tests.OnGridButtonClickFormTest@313b2ea6]" started-at="2026-11-23T15:55:37 IST" name="verifyActiveIconReEnablesTextbox" finished-at="2026-11-23T15:56:01 IST" duration-ms="24535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActiveIconReEnablesTextbox -->
+        <test-method signature="verifyOpenPageIconOpensNewPageAndCloses()[pri:3, instance:tests.OnGridButtonClickFormTest@313b2ea6]" started-at="2026-11-23T15:56:01 IST" name="verifyOpenPageIconOpensNewPageAndCloses" finished-at="2026-11-23T15:56:29 IST" duration-ms="27692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenPageIconOpensNewPageAndCloses -->
+        <test-method signature="verifyOpenDialogIconOpensNewPageAndCloses()[pri:4, instance:tests.OnGridButtonClickFormTest@313b2ea6]" started-at="2026-11-23T15:56:29 IST" name="verifyOpenDialogIconOpensNewPageAndCloses" finished-at="2026-11-23T15:56:44 IST" duration-ms="14791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenDialogIconOpensNewPageAndCloses -->
+        <test-method signature="verifyHideIconHidesTextbox()[pri:5, instance:tests.OnGridButtonClickFormTest@313b2ea6]" started-at="2026-11-23T15:56:44 IST" name="verifyHideIconHidesTextbox" finished-at="2026-11-23T15:57:15 IST" duration-ms="31166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHideIconHidesTextbox -->
+        <test-method signature="verifyShowIconShowsTextbox()[pri:6, instance:tests.OnGridButtonClickFormTest@313b2ea6]" started-at="2026-11-23T15:57:15 IST" name="verifyShowIconShowsTextbox" finished-at="2026-11-23T15:57:52 IST" duration-ms="36594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShowIconShowsTextbox -->
+        <test-method signature="verifyGetDataIconShowsThousand()[pri:7, instance:tests.OnGridButtonClickFormTest@313b2ea6]" started-at="2026-11-23T15:57:52 IST" name="verifyGetDataIconShowsThousand" finished-at="2026-11-23T15:58:19 IST" duration-ms="27131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetDataIconShowsThousand -->
+        <test-method signature="verifyFormulaIconAddsFive()[pri:8, instance:tests.OnGridButtonClickFormTest@313b2ea6]" started-at="2026-11-23T15:58:19 IST" name="verifyFormulaIconAddsFive" finished-at="2026-11-23T15:59:02 IST" duration-ms="42956" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Formulalabel should show 55 after entering 50 and clicking Formula expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Formulalabel should show 55 after entering 50 and clicking Formula expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.OnGridButtonClickFormTest.verifyFormulaIconAddsFive(OnGridButtonClickFormTest.java:159)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormulaIconAddsFive -->
+        <test-method signature="verifyPostFormulaIconAddsFive()[pri:9, instance:tests.OnGridButtonClickFormTest@313b2ea6]" started-at="2026-11-23T15:59:03 IST" name="verifyPostFormulaIconAddsFive" finished-at="2026-11-23T15:59:32 IST" duration-ms="29077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostFormulaIconAddsFive -->
+      </class> <!-- tests.OnGridButtonClickFormTest -->
+      <class name="tests.GridTextAutoFormTest">
+        <test-method is-config="true" signature="navigateToForm()[pri:0, instance:tests.GridTextAutoFormTest@6ff29830]" started-at="2026-11-23T15:52:26 IST" name="navigateToForm" finished-at="2026-11-23T15:52:30 IST" duration-ms="3448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToForm -->
+        <test-method signature="verifyInActiveDisablesTextbox()[pri:1, instance:tests.GridTextAutoFormTest@6ff29830]" started-at="2026-11-23T15:52:30 IST" name="verifyInActiveDisablesTextbox" finished-at="2026-11-23T15:52:42 IST" duration-ms="11768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInActiveDisablesTextbox -->
+        <test-method signature="verifyActiveReEnablesTextbox()[pri:2, instance:tests.GridTextAutoFormTest@6ff29830]" started-at="2026-11-23T15:52:42 IST" name="verifyActiveReEnablesTextbox" finished-at="2026-11-23T15:52:57 IST" duration-ms="14897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActiveReEnablesTextbox -->
+        <test-method signature="verifyHideButtonHidesTextbox()[pri:3, instance:tests.GridTextAutoFormTest@6ff29830]" started-at="2026-11-23T15:52:57 IST" name="verifyHideButtonHidesTextbox" finished-at="2026-11-23T15:53:06 IST" duration-ms="9199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHideButtonHidesTextbox -->
+        <test-method signature="verifyShowButtonShowsTextbox()[pri:4, instance:tests.GridTextAutoFormTest@6ff29830]" started-at="2026-11-23T15:53:06 IST" name="verifyShowButtonShowsTextbox" finished-at="2026-11-23T15:53:16 IST" duration-ms="9858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShowButtonShowsTextbox -->
+        <test-method signature="verifyOpenPageOpensNewPageAndCloses()[pri:5, instance:tests.GridTextAutoFormTest@6ff29830]" started-at="2026-11-23T15:53:16 IST" name="verifyOpenPageOpensNewPageAndCloses" finished-at="2026-11-23T15:53:44 IST" duration-ms="27989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenPageOpensNewPageAndCloses -->
+        <test-method signature="verifyOpenCloseDialogOpensAndCloses()[pri:6, instance:tests.GridTextAutoFormTest@6ff29830]" started-at="2026-11-23T15:53:44 IST" name="verifyOpenCloseDialogOpensAndCloses" finished-at="2026-11-23T15:53:55 IST" duration-ms="11042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenCloseDialogOpensAndCloses -->
+        <test-method signature="verifyGetDataShowsFifty()[pri:7, instance:tests.GridTextAutoFormTest@6ff29830]" started-at="2026-11-23T15:53:55 IST" name="verifyGetDataShowsFifty" finished-at="2026-11-23T15:54:01 IST" duration-ms="6073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetDataShowsFifty -->
+        <test-method signature="verifyFormulaAddsFifteen()[pri:8, instance:tests.GridTextAutoFormTest@6ff29830]" started-at="2026-11-23T15:54:01 IST" name="verifyFormulaAddsFifteen" finished-at="2026-11-23T15:54:12 IST" duration-ms="11566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormulaAddsFifteen -->
+        <test-method signature="verifyPostFormulaAddsFifteen()[pri:9, instance:tests.GridTextAutoFormTest@6ff29830]" started-at="2026-11-23T15:54:12 IST" name="verifyPostFormulaAddsFifteen" finished-at="2026-11-23T15:54:23 IST" duration-ms="10357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostFormulaAddsFifteen -->
       </class> <!-- tests.GridTextAutoFormTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="tests.ONButtonClickEventFormTest">
+        <test-method is-config="true" signature="navigateToForm()[pri:0, instance:tests.ONButtonClickEventFormTest@6a2b953e]" started-at="2026-11-23T15:54:23 IST" name="navigateToForm" finished-at="2026-11-23T15:54:27 IST" duration-ms="4611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToForm -->
+        <test-method signature="verifyInActiveDisablesTextbox()[pri:1, instance:tests.ONButtonClickEventFormTest@6a2b953e]" started-at="2026-11-23T15:54:27 IST" name="verifyInActiveDisablesTextbox" finished-at="2026-11-23T15:54:29 IST" duration-ms="1815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInActiveDisablesTextbox -->
+        <test-method signature="verifyActiveButtonReEnablesTextbox()[pri:2, instance:tests.ONButtonClickEventFormTest@6a2b953e]" started-at="2026-11-23T15:54:29 IST" name="verifyActiveButtonReEnablesTextbox" finished-at="2026-11-23T15:54:31 IST" duration-ms="2400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActiveButtonReEnablesTextbox -->
+        <test-method signature="verifyOpenPageButtonBehavior()[pri:3, instance:tests.ONButtonClickEventFormTest@6a2b953e]" started-at="2026-11-23T15:54:31 IST" name="verifyOpenPageButtonBehavior" finished-at="2026-11-23T15:54:39 IST" duration-ms="7314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenPageButtonBehavior -->
+        <test-method signature="verifyOpenAndCloseDialogButton()[pri:4, instance:tests.ONButtonClickEventFormTest@6a2b953e]" started-at="2026-11-23T15:54:39 IST" name="verifyOpenAndCloseDialogButton" finished-at="2026-11-23T15:54:46 IST" duration-ms="7344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenAndCloseDialogButton -->
+        <test-method signature="verifyHideButtonHidesFormulaTextbox()[pri:5, instance:tests.ONButtonClickEventFormTest@6a2b953e]" started-at="2026-11-23T15:54:46 IST" name="verifyHideButtonHidesFormulaTextbox" finished-at="2026-11-23T15:54:47 IST" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHideButtonHidesFormulaTextbox -->
+        <test-method signature="verifyShowButtonShowsFormulaTextbox()[pri:6, instance:tests.ONButtonClickEventFormTest@6a2b953e]" started-at="2026-11-23T15:54:47 IST" name="verifyShowButtonShowsFormulaTextbox" finished-at="2026-11-23T15:54:49 IST" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShowButtonShowsFormulaTextbox -->
+        <test-method signature="verifyFormulaAddsSixty()[pri:7, instance:tests.ONButtonClickEventFormTest@6a2b953e]" started-at="2026-11-23T15:54:49 IST" name="verifyFormulaAddsSixty" finished-at="2026-11-23T15:54:51 IST" duration-ms="2855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormulaAddsSixty -->
+        <test-method signature="verifyPostFormulaAddsSixty()[pri:8, instance:tests.ONButtonClickEventFormTest@6a2b953e]" started-at="2026-11-23T15:54:51 IST" name="verifyPostFormulaAddsSixty" finished-at="2026-11-23T15:54:54 IST" duration-ms="2928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostFormulaAddsSixty -->
+        <test-method signature="verifyGetDataShowsValue30()[pri:9, instance:tests.ONButtonClickEventFormTest@6a2b953e]" started-at="2026-11-23T15:54:54 IST" name="verifyGetDataShowsValue30" finished-at="2026-11-23T15:54:59 IST" duration-ms="4990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetDataShowsValue30 -->
+      </class> <!-- tests.ONButtonClickEventFormTest -->
+      <class name="tests.CheckChangeEventFormTest">
+        <test-method is-config="true" signature="navigateToForm()[pri:0, instance:tests.CheckChangeEventFormTest@2638011]" started-at="2026-11-23T15:51:35 IST" name="navigateToForm" finished-at="2026-11-23T15:51:44 IST" duration-ms="8175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToForm -->
+        <test-method signature="verifyActiveInactiveTogglesTextbox()[pri:2, instance:tests.CheckChangeEventFormTest@2638011]" started-at="2026-11-23T15:51:44 IST" name="verifyActiveInactiveTogglesTextbox" finished-at="2026-11-23T15:51:53 IST" duration-ms="9585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActiveInactiveTogglesTextbox -->
+        <test-method signature="verifyOpenPageCheckboxBehavior()[pri:3, instance:tests.CheckChangeEventFormTest@2638011]" started-at="2026-11-23T15:51:53 IST" name="verifyOpenPageCheckboxBehavior" finished-at="2026-11-23T15:51:58 IST" duration-ms="5127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenPageCheckboxBehavior -->
+        <test-method signature="verifyOpenAndCloseDialogCheckbox()[pri:4, instance:tests.CheckChangeEventFormTest@2638011]" started-at="2026-11-23T15:51:58 IST" name="verifyOpenAndCloseDialogCheckbox" finished-at="2026-11-23T15:52:08 IST" duration-ms="9586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenAndCloseDialogCheckbox -->
+        <test-method signature="verifyFormulaAddsHundred()[pri:5, instance:tests.CheckChangeEventFormTest@2638011]" started-at="2026-11-23T15:52:08 IST" name="verifyFormulaAddsHundred" finished-at="2026-11-23T15:52:12 IST" duration-ms="4587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormulaAddsHundred -->
+        <test-method signature="verifyPostFormulaAddsHundred()[pri:6, instance:tests.CheckChangeEventFormTest@2638011]" started-at="2026-11-23T15:52:12 IST" name="verifyPostFormulaAddsHundred" finished-at="2026-11-23T15:52:16 IST" duration-ms="3332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostFormulaAddsHundred -->
+        <test-method signature="verifyHideShowTogglesTextboxVisibility()[pri:7, instance:tests.CheckChangeEventFormTest@2638011]" started-at="2026-11-23T15:52:16 IST" name="verifyHideShowTogglesTextboxVisibility" finished-at="2026-11-23T15:52:21 IST" duration-ms="5416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHideShowTogglesTextboxVisibility -->
+        <test-method signature="verifyGetdataShowsValue21()[pri:8, instance:tests.CheckChangeEventFormTest@2638011]" started-at="2026-11-23T15:52:21 IST" name="verifyGetdataShowsValue21" finished-at="2026-11-23T15:52:23 IST" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetdataShowsValue21 -->
+        <test-method signature="verifyHardFormulaCalculation()[pri:9, instance:tests.CheckChangeEventFormTest@2638011]" started-at="2026-11-23T15:52:23 IST" name="verifyHardFormulaCalculation" finished-at="2026-11-23T15:52:26 IST" duration-ms="3867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHardFormulaCalculation -->
+      </class> <!-- tests.CheckChangeEventFormTest -->
+      <class name="tests.OnTextChangedFormTest">
+        <test-method is-config="true" signature="navigateToForm()[pri:0, instance:tests.OnTextChangedFormTest@623a8092]" started-at="2026-11-23T16:02:41 IST" name="navigateToForm" finished-at="2026-11-23T16:02:46 IST" duration-ms="5123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToForm -->
+        <test-method signature="verifyOpenPageTextChangeOpensPage()[pri:3, instance:tests.OnTextChangedFormTest@623a8092]" started-at="2026-11-23T16:02:46 IST" name="verifyOpenPageTextChangeOpensPage" finished-at="2026-11-23T16:03:05 IST" duration-ms="18518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenPageTextChangeOpensPage -->
+        <test-method signature="verifyOpenDialogTextChangeOpensDialog()[pri:4, instance:tests.OnTextChangedFormTest@623a8092]" started-at="2026-11-23T16:03:05 IST" name="verifyOpenDialogTextChangeOpensDialog" finished-at="2026-11-23T16:03:28 IST" duration-ms="23448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenDialogTextChangeOpensDialog -->
+        <test-method signature="verifyHideTextChangeHidesButton()[pri:5, instance:tests.OnTextChangedFormTest@623a8092]" started-at="2026-11-23T16:03:28 IST" name="verifyHideTextChangeHidesButton" finished-at="2026-11-23T16:03:37 IST" duration-ms="8925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHideTextChangeHidesButton -->
+        <test-method signature="verifyShowTextChangeShowsButton()[pri:6, instance:tests.OnTextChangedFormTest@623a8092]" started-at="2026-11-23T16:03:37 IST" name="verifyShowTextChangeShowsButton" finished-at="2026-11-23T16:03:46 IST" duration-ms="9404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShowTextChangeShowsButton -->
+        <test-method signature="verifyFormulaTextChangeShowsValue()[pri:7, instance:tests.OnTextChangedFormTest@623a8092]" started-at="2026-11-23T16:03:46 IST" name="verifyFormulaTextChangeShowsValue" finished-at="2026-11-23T16:03:59 IST" duration-ms="12786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormulaTextChangeShowsValue -->
+        <test-method signature="verifyPostformulaTextChangeShowsValue()[pri:8, instance:tests.OnTextChangedFormTest@623a8092]" started-at="2026-11-23T16:03:59 IST" name="verifyPostformulaTextChangeShowsValue" finished-at="2026-11-23T16:04:20 IST" duration-ms="21132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostformulaTextChangeShowsValue -->
+        <test-method signature="verifyGetdataTextChangeShowsValue()[pri:9, instance:tests.OnTextChangedFormTest@623a8092]" started-at="2026-11-23T16:04:20 IST" name="verifyGetdataTextChangeShowsValue" finished-at="2026-11-23T16:05:09 IST" duration-ms="48265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetdataTextChangeShowsValue -->
+      </class> <!-- tests.OnTextChangedFormTest -->
+      <class name="tests.SelectIndexChangeFormTest">
+        <test-method is-config="true" signature="navigateToForm()[pri:0, instance:tests.SelectIndexChangeFormTest@a1cdc6d]" started-at="2026-11-23T16:05:09 IST" name="navigateToForm" finished-at="2026-11-23T16:05:11 IST" duration-ms="2075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToForm -->
+        <test-method signature="verifyInActiveOptionBDisablesTextbox()[pri:1, instance:tests.SelectIndexChangeFormTest@a1cdc6d]" started-at="2026-11-23T16:05:11 IST" name="verifyInActiveOptionBDisablesTextbox" finished-at="2026-11-23T16:05:16 IST" duration-ms="5548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInActiveOptionBDisablesTextbox -->
+        <test-method signature="verifyActiveOptionBReEnablesTextbox()[pri:2, instance:tests.SelectIndexChangeFormTest@a1cdc6d]" started-at="2026-11-23T16:05:16 IST" name="verifyActiveOptionBReEnablesTextbox" finished-at="2026-11-23T16:05:22 IST" duration-ms="6161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActiveOptionBReEnablesTextbox -->
+        <test-method signature="verifyOpenPageOptionBOpensNewPage()[pri:3, instance:tests.SelectIndexChangeFormTest@a1cdc6d]" started-at="2026-11-23T16:05:22 IST" name="verifyOpenPageOptionBOpensNewPage" finished-at="2026-11-23T16:05:30 IST" duration-ms="7990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenPageOptionBOpensNewPage -->
+        <test-method signature="verifyOpenAndCloseDialogOpensAndAutoCloses()[pri:4, instance:tests.SelectIndexChangeFormTest@a1cdc6d]" started-at="2026-11-23T16:05:30 IST" name="verifyOpenAndCloseDialogOpensAndAutoCloses" finished-at="2026-11-23T16:05:42 IST" duration-ms="12129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenAndCloseDialogOpensAndAutoCloses -->
+        <test-method signature="verifyHideOptionBHidesTextbox()[pri:5, instance:tests.SelectIndexChangeFormTest@a1cdc6d]" started-at="2026-11-23T16:05:42 IST" name="verifyHideOptionBHidesTextbox" finished-at="2026-11-23T16:05:46 IST" duration-ms="3305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHideOptionBHidesTextbox -->
+        <test-method signature="verifyShowOptionBShowsTextbox()[pri:6, instance:tests.SelectIndexChangeFormTest@a1cdc6d]" started-at="2026-11-23T16:05:46 IST" name="verifyShowOptionBShowsTextbox" finished-at="2026-11-23T16:05:49 IST" duration-ms="2697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShowOptionBShowsTextbox -->
+        <test-method signature="verifyFormulaOptionBShowsFiftyFive()[pri:7, instance:tests.SelectIndexChangeFormTest@a1cdc6d]" started-at="2026-11-23T16:05:49 IST" name="verifyFormulaOptionBShowsFiftyFive" finished-at="2026-11-23T16:05:50 IST" duration-ms="1991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormulaOptionBShowsFiftyFive -->
+        <test-method signature="verifyGetDataOptionBShowsFiveHundred()[pri:8, instance:tests.SelectIndexChangeFormTest@a1cdc6d]" started-at="2026-11-23T16:05:50 IST" name="verifyGetDataOptionBShowsFiveHundred" finished-at="2026-11-23T16:06:00 IST" duration-ms="9405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetDataOptionBShowsFiveHundred -->
+        <test-method signature="verifyPostFormulaOptionBShowsFifty()[pri:9, instance:tests.SelectIndexChangeFormTest@a1cdc6d]" started-at="2026-11-23T16:06:00 IST" name="verifyPostFormulaOptionBShowsFifty" finished-at="2026-11-23T16:06:03 IST" duration-ms="2764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostFormulaOptionBShowsFifty -->
+      </class> <!-- tests.SelectIndexChangeFormTest -->
+    </test> <!-- Action Event Mobile Suite -->
+  </suite> <!-- AppiumSuite -->
 </testng-results>

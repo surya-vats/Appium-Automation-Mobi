@@ -1,6 +1,4 @@
 package tests;
-import Page.BasePage;
-import Page.CheckChangeEventFormPage;
 import Page.FormsPage;
 import Page.ONButtonClickEventFormPage;
 import io.appium.java_client.android.AndroidDriver;

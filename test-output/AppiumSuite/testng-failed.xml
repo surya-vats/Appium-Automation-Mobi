@@ -6,20 +6,33 @@
   </listeners>
   <test thread-count="5" name="Action Event Mobile Suite(failed)">
     <classes>
-      <class name="tests.CheckChangeEventFormTest">
+      <class name="tests.OnRadioButtonClickFormTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyPostFormulaAddsHundred"/>
-          <include name="verifyHardFormulaCalculation"/>
-          <include name="verifyGetdataShowsValue21"/>
-          <include name="verifyFormulaAddsHundred"/>
+          <include name="verifyInActiveBDisablesTextbox"/>
+          <include name="verifyGetDataForRadioAShowsValue"/>
           <include name="navigateToForm"/>
-          <include name="verifyHideShowTogglesTextboxVisibility"/>
-          <include name="verifyOpenAndCloseDialogCheckbox"/>
-          <include name="verifyOpenPageCheckboxBehavior"/>
         </methods>
-      </class> <!-- tests.CheckChangeEventFormTest -->
+      </class> <!-- tests.OnRadioButtonClickFormTest -->
+      <class name="tests.OnGridButtonClickFormTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyFormulaIconAddsFive"/>
+          <include name="navigateToForm"/>
+        </methods>
+      </class> <!-- tests.OnGridButtonClickFormTest -->
+      <class name="tests.OnLabelClickTestingFormTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyHideLabelHidesTestingTextbox"/>
+          <include name="verifyOpenAndCloseLabelDialog"/>
+          <include name="verifyShowLabelShowsTestingTextbox"/>
+          <include name="navigateToForm"/>
+        </methods>
+      </class> <!-- tests.OnLabelClickTestingFormTest -->
     </classes>
   </test> <!-- Action Event Mobile Suite(failed) -->
 </suite> <!-- Failed suite [AppiumSuite] -->

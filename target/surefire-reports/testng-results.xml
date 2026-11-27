@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-25T17:10:00 IST" name="Surefire suite" finished-at="2026-11-25T17:11:48 IST" duration-ms="108383">
+    <groups>
+    </groups>
+    <test started-at="2026-11-25T17:10:00 IST" name="Surefire test" finished-at="2026-11-25T17:11:48 IST" duration-ms="108383">
+      <class name="tests.ONButtonClickEventFormTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ONButtonClickEventFormTest@459e9125]" started-at="2026-11-25T17:09:35 IST" name="setUp" finished-at="2026-11-25T17:10:00 IST" duration-ms="24752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToForm()[pri:0, instance:tests.ONButtonClickEventFormTest@459e9125]" started-at="2026-11-25T17:10:00 IST" name="navigateToForm" finished-at="2026-11-25T17:11:14 IST" duration-ms="74128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToForm -->
+        <test-method signature="verifyInActiveDisablesTextbox()[pri:1, instance:tests.ONButtonClickEventFormTest@459e9125]" started-at="2026-11-25T17:11:14 IST" name="verifyInActiveDisablesTextbox" finished-at="2026-11-25T17:11:16 IST" duration-ms="1518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInActiveDisablesTextbox -->
+        <test-method signature="verifyActiveButtonReEnablesTextbox()[pri:2, instance:tests.ONButtonClickEventFormTest@459e9125]" started-at="2026-11-25T17:11:16 IST" name="verifyActiveButtonReEnablesTextbox" finished-at="2026-11-25T17:11:18 IST" duration-ms="2308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActiveButtonReEnablesTextbox -->
+        <test-method signature="verifyOpenPageButtonBehavior()[pri:3, instance:tests.ONButtonClickEventFormTest@459e9125]" started-at="2026-11-25T17:11:18 IST" name="verifyOpenPageButtonBehavior" finished-at="2026-11-25T17:11:25 IST" duration-ms="6662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenPageButtonBehavior -->
+        <test-method signature="verifyOpenAndCloseDialogButton()[pri:4, instance:tests.ONButtonClickEventFormTest@459e9125]" started-at="2026-11-25T17:11:25 IST" name="verifyOpenAndCloseDialogButton" finished-at="2026-11-25T17:11:34 IST" duration-ms="9308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenAndCloseDialogButton -->
+        <test-method signature="verifyHideButtonHidesFormulaTextbox()[pri:5, instance:tests.ONButtonClickEventFormTest@459e9125]" started-at="2026-11-25T17:11:34 IST" name="verifyHideButtonHidesFormulaTextbox" finished-at="2026-11-25T17:11:36 IST" duration-ms="2305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHideButtonHidesFormulaTextbox -->
+        <test-method signature="verifyShowButtonShowsFormulaTextbox()[pri:6, instance:tests.ONButtonClickEventFormTest@459e9125]" started-at="2026-11-25T17:11:36 IST" name="verifyShowButtonShowsFormulaTextbox" finished-at="2026-11-25T17:11:38 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShowButtonShowsFormulaTextbox -->
+        <test-method signature="verifyFormulaAddsSixty()[pri:7, instance:tests.ONButtonClickEventFormTest@459e9125]" started-at="2026-11-25T17:11:38 IST" name="verifyFormulaAddsSixty" finished-at="2026-11-25T17:11:41 IST" duration-ms="3032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormulaAddsSixty -->
+        <test-method signature="verifyPostFormulaAddsSixty()[pri:8, instance:tests.ONButtonClickEventFormTest@459e9125]" started-at="2026-11-25T17:11:41 IST" name="verifyPostFormulaAddsSixty" finished-at="2026-11-25T17:11:44 IST" duration-ms="3071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostFormulaAddsSixty -->
+        <test-method signature="verifyGetDataShowsValue30()[pri:9, instance:tests.ONButtonClickEventFormTest@459e9125]" started-at="2026-11-25T17:11:44 IST" name="verifyGetDataShowsValue30" finished-at="2026-11-25T17:11:48 IST" duration-ms="4687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetDataShowsValue30 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ONButtonClickEventFormTest@459e9125]" started-at="2026-11-25T17:11:48 IST" name="tearDown" finished-at="2026-11-25T17:11:49 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ONButtonClickEventFormTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

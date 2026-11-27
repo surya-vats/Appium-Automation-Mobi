@@ -1,0 +1,10 @@
+base\BaseTest.class
+tests\CheckChangeEventFormTest.class
+tests\OnLabelClickTestingFormTest.class
+tests\OnTextChangedFormTest.class
+tests\SelectIndexChangeFormTest.class
+tests\GridTextAutoFormTest.class
+tests\OnRadioButtonClickFormTest.class
+tests\LoginTest.class
+tests\OnGridButtonClickFormTest.class
+tests\ONButtonClickEventFormTest.class

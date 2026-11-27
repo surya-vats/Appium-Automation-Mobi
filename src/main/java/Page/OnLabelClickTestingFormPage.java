@@ -42,13 +42,6 @@ public class OnLabelClickTestingFormPage extends BasePage {
             + "']/following-sibling::android.widget.TextView[1]");
     }
 
-    // Explicit wait: polls until the element exists (max 10s), then returns it.
-    private WebElement waitForValueLabel(String caption) {
-        System.out.println("Waiting for label next to caption: " + caption);
-        return new WebDriverWait(driver, Duration.ofSeconds(10))
-            .until(ExpectedConditions.presenceOfElementLocated(valueByCaption(caption)));
-    }
-
     // Confirmed in Inspector: the clickable label is found by its own text, e.g. text("2").
     // className("android.widget.TextView") is added so the locator can never match an
     // EditText that happens to contain the same digits (the tests type numbers into textboxes).

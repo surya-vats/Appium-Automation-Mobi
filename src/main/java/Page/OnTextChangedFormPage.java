@@ -36,7 +36,7 @@ public class OnTextChangedFormPage extends BasePage {
     @AndroidFindBy(uiAutomator = "new UiSelector().text(\"OpenDailog\")")
     private WebElement openDialogTextbox;
 
-    // TODO: put the real locator of the textbox that comes after OpenDailog.
+    
     // Clicking it moves focus away and fires the text-change event.
     @AndroidFindBy(uiAutomator = "new UiSelector().className(\"android.widget.EditText\").instance(1)")
     private WebElement nextTextbox;

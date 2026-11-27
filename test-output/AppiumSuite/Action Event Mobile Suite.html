@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Action Event Mobile Suite</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>62/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 28 15:12:12 IST 2026</td>
+<td>Started on:</td><td>Mon Nov 23 15:50:58 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>84 seconds (84606 ms)</td>
+<tr><td>Total time:</td><td>904 seconds (904354 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,280 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.OnGridButtonClickFormTest.verifyFormulaIconAddsFive()'><b>verifyFormulaIconAddsFive</b><br>Test class: tests.OnGridButtonClickFormTest</td>
+<td><div><pre>java.lang.AssertionError: Formulalabel should show 55 after entering 50 and clicking Formula expected [true] but found [false]
+	at tests.OnGridButtonClickFormTest.verifyFormulaIconAddsFive(OnGridButtonClickFormTest.java:159)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1349536242", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1349536242'><pre>java.lang.AssertionError: Formulalabel should show 55 after entering 50 and clicking Formula expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.OnGridButtonClickFormTest.verifyFormulaIconAddsFive(OnGridButtonClickFormTest.java:159)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>42</td>
+<td>tests.OnGridButtonClickFormTest@313b2ea6</td></tr>
+<tr>
+<td title='tests.OnLabelClickTestingFormTest.verifyOpenAndCloseLabelDialog()'><b>verifyOpenAndCloseLabelDialog</b><br>Test class: tests.OnLabelClickTestingFormTest</td>
+<td><div><pre>java.lang.AssertionError: Dialog should open after clicking OpenAndClose label expected [true] but found [false]
+	at tests.OnLabelClickTestingFormTest.verifyOpenAndCloseLabelDialog(OnLabelClickTestingFormTest.java:96)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace344633656", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace344633656'><pre>java.lang.AssertionError: Dialog should open after clicking OpenAndClose label expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.OnLabelClickTestingFormTest.verifyOpenAndCloseLabelDialog(OnLabelClickTestingFormTest.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>12</td>
+<td>tests.OnLabelClickTestingFormTest@2f465398</td></tr>
+<tr>
+<td title='tests.OnRadioButtonClickFormTest.verifyGetDataForRadioAShowsValue()'><b>verifyGetDataForRadioAShowsValue</b><br>Test class: tests.OnRadioButtonClickFormTest</td>
+<td><div><pre>java.lang.AssertionError: LabelforGetdata should show 100 after GetDataforRadio A expected [true] but found [false]
+	at tests.OnRadioButtonClickFormTest.verifyGetDataForRadioAShowsValue(OnRadioButtonClickFormTest.java:209)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1878782124", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1878782124'><pre>java.lang.AssertionError: LabelforGetdata should show 100 after GetDataforRadio A expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.OnRadioButtonClickFormTest.verifyGetDataForRadioAShowsValue(OnRadioButtonClickFormTest.java:209)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>26</td>
+<td>tests.OnRadioButtonClickFormTest@548e6d58</td></tr>
+<tr>
+<td title='tests.OnLabelClickTestingFormTest.verifyShowLabelShowsTestingTextbox()'><b>verifyShowLabelShowsTestingTextbox</b><br>Test class: tests.OnLabelClickTestingFormTest</td>
+<td><div><pre>java.lang.AssertionError: TestingTestbox should still be hidden before clicking Show expected [false] but found [true]
+	at tests.OnLabelClickTestingFormTest.verifyShowLabelShowsTestingTextbox(OnLabelClickTestingFormTest.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1516344760", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1516344760'><pre>java.lang.AssertionError: TestingTestbox should still be hidden before clicking Show expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at tests.OnLabelClickTestingFormTest.verifyShowLabelShowsTestingTextbox(OnLabelClickTestingFormTest.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>tests.OnLabelClickTestingFormTest@2f465398</td></tr>
+<tr>
+<td title='tests.OnRadioButtonClickFormTest.verifyInActiveBDisablesTextbox()'><b>verifyInActiveBDisablesTextbox</b><br>Test class: tests.OnRadioButtonClickFormTest</td>
+<td><div><pre>java.lang.AssertionError: Textbox should be disabled after selecting InActive B expected [true] but found [false]
+	at tests.OnRadioButtonClickFormTest.verifyInActiveBDisablesTextbox(OnRadioButtonClickFormTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace308704765", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace308704765'><pre>java.lang.AssertionError: Textbox should be disabled after selecting InActive B expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.OnRadioButtonClickFormTest.verifyInActiveBDisablesTextbox(OnRadioButtonClickFormTest.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>19</td>
+<td>tests.OnRadioButtonClickFormTest@548e6d58</td></tr>
+<tr>
+<td title='tests.OnLabelClickTestingFormTest.verifyHideLabelHidesTestingTextbox()'><b>verifyHideLabelHidesTestingTextbox</b><br>Test class: tests.OnLabelClickTestingFormTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for Page.OnLabelClickTestingFormPage$$Lambda$666/0x000001af8634e7d8@504b8705 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Desktop\All APK\Appsavyd..., appium:appActivity: com.mobi.datadesignstudio.F..., appium:appPackage: com.mobi.dds_iuv, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Desktop\All APK\Appsavyd..., appActivity: com.mobi.datadesignstudio.F..., appPackage: com.mobi.dds_iuv, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Realme P4, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: realme, appium:deviceModel: RMX5110, appium:deviceName: EYXCV4DETWKFVSQ4, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2392, appium:deviceUDID: EYXCV4DETWKFVSQ4, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 3, appium:platformVersion: 16, appium:statBarHeight: 110, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 110, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 0d054c73-ea96-482a-9e3a-e739c2cf0144
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Page.OnLabelClickTestingFormPage.waitForTestingTextboxVisible(OnLabelClickTestingFormPage.java:209)
+	at tests.OnLabelClickTestingFormTest.verifyHideLabelHidesTestingTextbox(OnLabelClickTestingFormTest.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1778282640", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1778282640'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for Page.OnLabelClickTestingFormPage$$Lambda$666/0x000001af8634e7d8@504b8705 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Desktop\All APK\Appsavyd..., appium:appActivity: com.mobi.datadesignstudio.F..., appium:appPackage: com.mobi.dds_iuv, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Desktop\All APK\Appsavyd..., appActivity: com.mobi.datadesignstudio.F..., appPackage: com.mobi.dds_iuv, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Realme P4, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: realme, appium:deviceModel: RMX5110, appium:deviceName: EYXCV4DETWKFVSQ4, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2392, appium:deviceUDID: EYXCV4DETWKFVSQ4, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 3, appium:platformVersion: 16, appium:statBarHeight: 110, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 110, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 0d054c73-ea96-482a-9e3a-e739c2cf0144
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Page.OnLabelClickTestingFormPage.waitForTestingTextboxVisible(OnLabelClickTestingFormPage.java:209)
+	at tests.OnLabelClickTestingFormTest.verifyHideLabelHidesTestingTextbox(OnLabelClickTestingFormTest.java:111)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>11</td>
+<td>tests.OnLabelClickTestingFormTest@2f465398</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,50 +350,315 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.LoginTest.verifyLogin()'><b>verifyLogin</b><br>Test class: tests.LoginTest</td>
-<td></td>
-<td>35</td>
-<td>tests.LoginTest@bccb269</td></tr>
-<tr>
-<td title='tests.CheckChangeEventFormTest.verifyOpenPageCheckboxBehavior()'><b>verifyOpenPageCheckboxBehavior</b><br>Test class: tests.CheckChangeEventFormTest</td>
-<td></td>
-<td>5</td>
-<td>tests.CheckChangeEventFormTest@3c3d9b6b</td></tr>
-<tr>
-<td title='tests.CheckChangeEventFormTest.verifyOpenAndCloseDialogCheckbox()'><b>verifyOpenAndCloseDialogCheckbox</b><br>Test class: tests.CheckChangeEventFormTest</td>
-<td></td>
-<td>8</td>
-<td>tests.CheckChangeEventFormTest@3c3d9b6b</td></tr>
-<tr>
-<td title='tests.CheckChangeEventFormTest.verifyFormulaAddsHundred()'><b>verifyFormulaAddsHundred</b><br>Test class: tests.CheckChangeEventFormTest</td>
-<td></td>
-<td>3</td>
-<td>tests.CheckChangeEventFormTest@3c3d9b6b</td></tr>
-<tr>
-<td title='tests.CheckChangeEventFormTest.verifyGetdataShowsValue21()'><b>verifyGetdataShowsValue21</b><br>Test class: tests.CheckChangeEventFormTest</td>
-<td></td>
-<td>1</td>
-<td>tests.CheckChangeEventFormTest@3c3d9b6b</td></tr>
-<tr>
-<td title='tests.CheckChangeEventFormTest.verifyHardFormulaCalculation()'><b>verifyHardFormulaCalculation</b><br>Test class: tests.CheckChangeEventFormTest</td>
-<td></td>
-<td>3</td>
-<td>tests.CheckChangeEventFormTest@3c3d9b6b</td></tr>
-<tr>
-<td title='tests.CheckChangeEventFormTest.verifyActiveInactiveTogglesTextbox()'><b>verifyActiveInactiveTogglesTextbox</b><br>Test class: tests.CheckChangeEventFormTest</td>
+<td title='tests.GridTextAutoFormTest.verifyShowButtonShowsTextbox()'><b>verifyShowButtonShowsTextbox</b><br>Test class: tests.GridTextAutoFormTest</td>
 <td></td>
 <td>9</td>
-<td>tests.CheckChangeEventFormTest@3c3d9b6b</td></tr>
+<td>tests.GridTextAutoFormTest@6ff29830</td></tr>
+<tr>
+<td title='tests.GridTextAutoFormTest.verifyOpenCloseDialogOpensAndCloses()'><b>verifyOpenCloseDialogOpensAndCloses</b><br>Test class: tests.GridTextAutoFormTest</td>
+<td></td>
+<td>11</td>
+<td>tests.GridTextAutoFormTest@6ff29830</td></tr>
+<tr>
+<td title='tests.GridTextAutoFormTest.verifyInActiveDisablesTextbox()'><b>verifyInActiveDisablesTextbox</b><br>Test class: tests.GridTextAutoFormTest</td>
+<td></td>
+<td>11</td>
+<td>tests.GridTextAutoFormTest@6ff29830</td></tr>
 <tr>
 <td title='tests.CheckChangeEventFormTest.verifyPostFormulaAddsHundred()'><b>verifyPostFormulaAddsHundred</b><br>Test class: tests.CheckChangeEventFormTest</td>
 <td></td>
 <td>3</td>
-<td>tests.CheckChangeEventFormTest@3c3d9b6b</td></tr>
+<td>tests.CheckChangeEventFormTest@2638011</td></tr>
+<tr>
+<td title='tests.ONButtonClickEventFormTest.verifyActiveButtonReEnablesTextbox()'><b>verifyActiveButtonReEnablesTextbox</b><br>Test class: tests.ONButtonClickEventFormTest</td>
+<td></td>
+<td>2</td>
+<td>tests.ONButtonClickEventFormTest@6a2b953e</td></tr>
+<tr>
+<td title='tests.CheckChangeEventFormTest.verifyOpenAndCloseDialogCheckbox()'><b>verifyOpenAndCloseDialogCheckbox</b><br>Test class: tests.CheckChangeEventFormTest</td>
+<td></td>
+<td>9</td>
+<td>tests.CheckChangeEventFormTest@2638011</td></tr>
+<tr>
+<td title='tests.ONButtonClickEventFormTest.verifyInActiveDisablesTextbox()'><b>verifyInActiveDisablesTextbox</b><br>Test class: tests.ONButtonClickEventFormTest</td>
+<td></td>
+<td>1</td>
+<td>tests.ONButtonClickEventFormTest@6a2b953e</td></tr>
+<tr>
+<td title='tests.SelectIndexChangeFormTest.verifyFormulaOptionBShowsFiftyFive()'><b>verifyFormulaOptionBShowsFiftyFive</b><br>Test class: tests.SelectIndexChangeFormTest</td>
+<td></td>
+<td>1</td>
+<td>tests.SelectIndexChangeFormTest@a1cdc6d</td></tr>
+<tr>
+<td title='tests.SelectIndexChangeFormTest.verifyGetDataOptionBShowsFiveHundred()'><b>verifyGetDataOptionBShowsFiveHundred</b><br>Test class: tests.SelectIndexChangeFormTest</td>
+<td></td>
+<td>9</td>
+<td>tests.SelectIndexChangeFormTest@a1cdc6d</td></tr>
+<tr>
+<td title='tests.OnLabelClickTestingFormTest.verifyInActiveLabelDisablesTextbox()'><b>verifyInActiveLabelDisablesTextbox</b><br>Test class: tests.OnLabelClickTestingFormTest</td>
+<td></td>
+<td>1</td>
+<td>tests.OnLabelClickTestingFormTest@2f465398</td></tr>
+<tr>
+<td title='tests.OnRadioButtonClickFormTest.verifyHideARadioHidesTextbox()'><b>verifyHideARadioHidesTextbox</b><br>Test class: tests.OnRadioButtonClickFormTest</td>
+<td></td>
+<td>18</td>
+<td>tests.OnRadioButtonClickFormTest@548e6d58</td></tr>
+<tr>
+<td title='tests.LoginTest.verifyLogin()'><b>verifyLogin</b><br>Test class: tests.LoginTest</td>
+<td></td>
+<td>36</td>
+<td>tests.LoginTest@7a675056</td></tr>
+<tr>
+<td title='tests.SelectIndexChangeFormTest.verifyHideOptionBHidesTextbox()'><b>verifyHideOptionBHidesTextbox</b><br>Test class: tests.SelectIndexChangeFormTest</td>
+<td></td>
+<td>3</td>
+<td>tests.SelectIndexChangeFormTest@a1cdc6d</td></tr>
+<tr>
+<td title='tests.OnTextChangedFormTest.verifyOpenPageTextChangeOpensPage()'><b>verifyOpenPageTextChangeOpensPage</b><br>Test class: tests.OnTextChangedFormTest</td>
+<td></td>
+<td>18</td>
+<td>tests.OnTextChangedFormTest@623a8092</td></tr>
+<tr>
+<td title='tests.SelectIndexChangeFormTest.verifyInActiveOptionBDisablesTextbox()'><b>verifyInActiveOptionBDisablesTextbox</b><br>Test class: tests.SelectIndexChangeFormTest</td>
+<td></td>
+<td>5</td>
+<td>tests.SelectIndexChangeFormTest@a1cdc6d</td></tr>
+<tr>
+<td title='tests.GridTextAutoFormTest.verifyOpenPageOpensNewPageAndCloses()'><b>verifyOpenPageOpensNewPageAndCloses</b><br>Test class: tests.GridTextAutoFormTest</td>
+<td></td>
+<td>27</td>
+<td>tests.GridTextAutoFormTest@6ff29830</td></tr>
+<tr>
+<td title='tests.ONButtonClickEventFormTest.verifyGetDataShowsValue30()'><b>verifyGetDataShowsValue30</b><br>Test class: tests.ONButtonClickEventFormTest</td>
+<td></td>
+<td>4</td>
+<td>tests.ONButtonClickEventFormTest@6a2b953e</td></tr>
+<tr>
+<td title='tests.SelectIndexChangeFormTest.verifyActiveOptionBReEnablesTextbox()'><b>verifyActiveOptionBReEnablesTextbox</b><br>Test class: tests.SelectIndexChangeFormTest</td>
+<td></td>
+<td>6</td>
+<td>tests.SelectIndexChangeFormTest@a1cdc6d</td></tr>
+<tr>
+<td title='tests.ONButtonClickEventFormTest.verifyOpenPageButtonBehavior()'><b>verifyOpenPageButtonBehavior</b><br>Test class: tests.ONButtonClickEventFormTest</td>
+<td></td>
+<td>7</td>
+<td>tests.ONButtonClickEventFormTest@6a2b953e</td></tr>
+<tr>
+<td title='tests.OnGridButtonClickFormTest.verifyOpenPageIconOpensNewPageAndCloses()'><b>verifyOpenPageIconOpensNewPageAndCloses</b><br>Test class: tests.OnGridButtonClickFormTest</td>
+<td></td>
+<td>27</td>
+<td>tests.OnGridButtonClickFormTest@313b2ea6</td></tr>
+<tr>
+<td title='tests.OnRadioButtonClickFormTest.verifyActiveAReEnablesTextbox()'><b>verifyActiveAReEnablesTextbox</b><br>Test class: tests.OnRadioButtonClickFormTest</td>
+<td></td>
+<td>10</td>
+<td>tests.OnRadioButtonClickFormTest@548e6d58</td></tr>
+<tr>
+<td title='tests.OnTextChangedFormTest.verifyHideTextChangeHidesButton()'><b>verifyHideTextChangeHidesButton</b><br>Test class: tests.OnTextChangedFormTest</td>
+<td></td>
+<td>8</td>
+<td>tests.OnTextChangedFormTest@623a8092</td></tr>
+<tr>
+<td title='tests.ONButtonClickEventFormTest.verifyPostFormulaAddsSixty()'><b>verifyPostFormulaAddsSixty</b><br>Test class: tests.ONButtonClickEventFormTest</td>
+<td></td>
+<td>2</td>
+<td>tests.ONButtonClickEventFormTest@6a2b953e</td></tr>
+<tr>
+<td title='tests.OnGridButtonClickFormTest.verifyPostFormulaIconAddsFive()'><b>verifyPostFormulaIconAddsFive</b><br>Test class: tests.OnGridButtonClickFormTest</td>
+<td></td>
+<td>29</td>
+<td>tests.OnGridButtonClickFormTest@313b2ea6</td></tr>
+<tr>
+<td title='tests.CheckChangeEventFormTest.verifyFormulaAddsHundred()'><b>verifyFormulaAddsHundred</b><br>Test class: tests.CheckChangeEventFormTest</td>
+<td></td>
+<td>4</td>
+<td>tests.CheckChangeEventFormTest@2638011</td></tr>
+<tr>
+<td title='tests.SelectIndexChangeFormTest.verifyShowOptionBShowsTextbox()'><b>verifyShowOptionBShowsTextbox</b><br>Test class: tests.SelectIndexChangeFormTest</td>
+<td></td>
+<td>2</td>
+<td>tests.SelectIndexChangeFormTest@a1cdc6d</td></tr>
+<tr>
+<td title='tests.SelectIndexChangeFormTest.verifyOpenAndCloseDialogOpensAndAutoCloses()'><b>verifyOpenAndCloseDialogOpensAndAutoCloses</b><br>Test class: tests.SelectIndexChangeFormTest</td>
+<td></td>
+<td>12</td>
+<td>tests.SelectIndexChangeFormTest@a1cdc6d</td></tr>
+<tr>
+<td title='tests.OnRadioButtonClickFormTest.verifyOpenPageARadioOpensNewPage()'><b>verifyOpenPageARadioOpensNewPage</b><br>Test class: tests.OnRadioButtonClickFormTest</td>
+<td></td>
+<td>17</td>
+<td>tests.OnRadioButtonClickFormTest@548e6d58</td></tr>
+<tr>
+<td title='tests.GridTextAutoFormTest.verifyFormulaAddsFifteen()'><b>verifyFormulaAddsFifteen</b><br>Test class: tests.GridTextAutoFormTest</td>
+<td></td>
+<td>11</td>
+<td>tests.GridTextAutoFormTest@6ff29830</td></tr>
+<tr>
+<td title='tests.OnLabelClickTestingFormTest.verifyOpenPageLabelBehavior()'><b>verifyOpenPageLabelBehavior</b><br>Test class: tests.OnLabelClickTestingFormTest</td>
+<td></td>
+<td>6</td>
+<td>tests.OnLabelClickTestingFormTest@2f465398</td></tr>
+<tr>
+<td title='tests.GridTextAutoFormTest.verifyActiveReEnablesTextbox()'><b>verifyActiveReEnablesTextbox</b><br>Test class: tests.GridTextAutoFormTest</td>
+<td></td>
+<td>14</td>
+<td>tests.GridTextAutoFormTest@6ff29830</td></tr>
+<tr>
+<td title='tests.GridTextAutoFormTest.verifyHideButtonHidesTextbox()'><b>verifyHideButtonHidesTextbox</b><br>Test class: tests.GridTextAutoFormTest</td>
+<td></td>
+<td>9</td>
+<td>tests.GridTextAutoFormTest@6ff29830</td></tr>
+<tr>
+<td title='tests.OnRadioButtonClickFormTest.verifyPostformulaAShowsValue()'><b>verifyPostformulaAShowsValue</b><br>Test class: tests.OnRadioButtonClickFormTest</td>
+<td></td>
+<td>15</td>
+<td>tests.OnRadioButtonClickFormTest@548e6d58</td></tr>
+<tr>
+<td title='tests.OnTextChangedFormTest.verifyPostformulaTextChangeShowsValue()'><b>verifyPostformulaTextChangeShowsValue</b><br>Test class: tests.OnTextChangedFormTest</td>
+<td></td>
+<td>21</td>
+<td>tests.OnTextChangedFormTest@623a8092</td></tr>
+<tr>
+<td title='tests.SelectIndexChangeFormTest.verifyOpenPageOptionBOpensNewPage()'><b>verifyOpenPageOptionBOpensNewPage</b><br>Test class: tests.SelectIndexChangeFormTest</td>
+<td></td>
+<td>7</td>
+<td>tests.SelectIndexChangeFormTest@a1cdc6d</td></tr>
+<tr>
+<td title='tests.ONButtonClickEventFormTest.verifyFormulaAddsSixty()'><b>verifyFormulaAddsSixty</b><br>Test class: tests.ONButtonClickEventFormTest</td>
+<td></td>
+<td>2</td>
+<td>tests.ONButtonClickEventFormTest@6a2b953e</td></tr>
+<tr>
+<td title='tests.OnLabelClickTestingFormTest.verifyFormulaLabelAddsSixty()'><b>verifyFormulaLabelAddsSixty</b><br>Test class: tests.OnLabelClickTestingFormTest</td>
+<td></td>
+<td>3</td>
+<td>tests.OnLabelClickTestingFormTest@2f465398</td></tr>
+<tr>
+<td title='tests.OnTextChangedFormTest.verifyGetdataTextChangeShowsValue()'><b>verifyGetdataTextChangeShowsValue</b><br>Test class: tests.OnTextChangedFormTest</td>
+<td></td>
+<td>48</td>
+<td>tests.OnTextChangedFormTest@623a8092</td></tr>
+<tr>
+<td title='tests.OnGridButtonClickFormTest.verifyOpenDialogIconOpensNewPageAndCloses()'><b>verifyOpenDialogIconOpensNewPageAndCloses</b><br>Test class: tests.OnGridButtonClickFormTest</td>
+<td></td>
+<td>14</td>
+<td>tests.OnGridButtonClickFormTest@313b2ea6</td></tr>
+<tr>
+<td title='tests.ONButtonClickEventFormTest.verifyHideButtonHidesFormulaTextbox()'><b>verifyHideButtonHidesFormulaTextbox</b><br>Test class: tests.ONButtonClickEventFormTest</td>
+<td></td>
+<td>1</td>
+<td>tests.ONButtonClickEventFormTest@6a2b953e</td></tr>
+<tr>
+<td title='tests.OnLabelClickTestingFormTest.verifyActiveLabelReEnablesTextbox()'><b>verifyActiveLabelReEnablesTextbox</b><br>Test class: tests.OnLabelClickTestingFormTest</td>
+<td></td>
+<td>2</td>
+<td>tests.OnLabelClickTestingFormTest@2f465398</td></tr>
+<tr>
+<td title='tests.OnTextChangedFormTest.verifyFormulaTextChangeShowsValue()'><b>verifyFormulaTextChangeShowsValue</b><br>Test class: tests.OnTextChangedFormTest</td>
+<td></td>
+<td>12</td>
+<td>tests.OnTextChangedFormTest@623a8092</td></tr>
+<tr>
+<td title='tests.ONButtonClickEventFormTest.verifyShowButtonShowsFormulaTextbox()'><b>verifyShowButtonShowsFormulaTextbox</b><br>Test class: tests.ONButtonClickEventFormTest</td>
+<td></td>
+<td>1</td>
+<td>tests.ONButtonClickEventFormTest@6a2b953e</td></tr>
+<tr>
+<td title='tests.OnGridButtonClickFormTest.verifyInActiveIconDisablesTextbox()'><b>verifyInActiveIconDisablesTextbox</b><br>Test class: tests.OnGridButtonClickFormTest</td>
+<td></td>
+<td>35</td>
+<td>tests.OnGridButtonClickFormTest@313b2ea6</td></tr>
+<tr>
+<td title='tests.OnGridButtonClickFormTest.verifyShowIconShowsTextbox()'><b>verifyShowIconShowsTextbox</b><br>Test class: tests.OnGridButtonClickFormTest</td>
+<td></td>
+<td>36</td>
+<td>tests.OnGridButtonClickFormTest@313b2ea6</td></tr>
+<tr>
+<td title='tests.CheckChangeEventFormTest.verifyOpenPageCheckboxBehavior()'><b>verifyOpenPageCheckboxBehavior</b><br>Test class: tests.CheckChangeEventFormTest</td>
+<td></td>
+<td>5</td>
+<td>tests.CheckChangeEventFormTest@2638011</td></tr>
+<tr>
+<td title='tests.OnRadioButtonClickFormTest.verifyShowARadioShowsTextbox()'><b>verifyShowARadioShowsTextbox</b><br>Test class: tests.OnRadioButtonClickFormTest</td>
+<td></td>
+<td>9</td>
+<td>tests.OnRadioButtonClickFormTest@548e6d58</td></tr>
+<tr>
+<td title='tests.OnTextChangedFormTest.verifyShowTextChangeShowsButton()'><b>verifyShowTextChangeShowsButton</b><br>Test class: tests.OnTextChangedFormTest</td>
+<td></td>
+<td>9</td>
+<td>tests.OnTextChangedFormTest@623a8092</td></tr>
+<tr>
+<td title='tests.OnRadioButtonClickFormTest.verifyOpenDialogARadioOpensDialog()'><b>verifyOpenDialogARadioOpensDialog</b><br>Test class: tests.OnRadioButtonClickFormTest</td>
+<td></td>
+<td>13</td>
+<td>tests.OnRadioButtonClickFormTest@548e6d58</td></tr>
+<tr>
+<td title='tests.ONButtonClickEventFormTest.verifyOpenAndCloseDialogButton()'><b>verifyOpenAndCloseDialogButton</b><br>Test class: tests.ONButtonClickEventFormTest</td>
+<td></td>
+<td>7</td>
+<td>tests.ONButtonClickEventFormTest@6a2b953e</td></tr>
+<tr>
+<td title='tests.SelectIndexChangeFormTest.verifyPostFormulaOptionBShowsFifty()'><b>verifyPostFormulaOptionBShowsFifty</b><br>Test class: tests.SelectIndexChangeFormTest</td>
+<td></td>
+<td>2</td>
+<td>tests.SelectIndexChangeFormTest@a1cdc6d</td></tr>
+<tr>
+<td title='tests.CheckChangeEventFormTest.verifyGetdataShowsValue21()'><b>verifyGetdataShowsValue21</b><br>Test class: tests.CheckChangeEventFormTest</td>
+<td></td>
+<td>1</td>
+<td>tests.CheckChangeEventFormTest@2638011</td></tr>
+<tr>
+<td title='tests.GridTextAutoFormTest.verifyGetDataShowsFifty()'><b>verifyGetDataShowsFifty</b><br>Test class: tests.GridTextAutoFormTest</td>
+<td></td>
+<td>6</td>
+<td>tests.GridTextAutoFormTest@6ff29830</td></tr>
+<tr>
+<td title='tests.GridTextAutoFormTest.verifyPostFormulaAddsFifteen()'><b>verifyPostFormulaAddsFifteen</b><br>Test class: tests.GridTextAutoFormTest</td>
+<td></td>
+<td>10</td>
+<td>tests.GridTextAutoFormTest@6ff29830</td></tr>
+<tr>
+<td title='tests.OnRadioButtonClickFormTest.verifyFormulaAShowsValue()'><b>verifyFormulaAShowsValue</b><br>Test class: tests.OnRadioButtonClickFormTest</td>
+<td></td>
+<td>9</td>
+<td>tests.OnRadioButtonClickFormTest@548e6d58</td></tr>
+<tr>
+<td title='tests.OnGridButtonClickFormTest.verifyHideIconHidesTextbox()'><b>verifyHideIconHidesTextbox</b><br>Test class: tests.OnGridButtonClickFormTest</td>
+<td></td>
+<td>31</td>
+<td>tests.OnGridButtonClickFormTest@313b2ea6</td></tr>
+<tr>
+<td title='tests.OnGridButtonClickFormTest.verifyGetDataIconShowsThousand()'><b>verifyGetDataIconShowsThousand</b><br>Test class: tests.OnGridButtonClickFormTest</td>
+<td></td>
+<td>27</td>
+<td>tests.OnGridButtonClickFormTest@313b2ea6</td></tr>
 <tr>
 <td title='tests.CheckChangeEventFormTest.verifyHideShowTogglesTextboxVisibility()'><b>verifyHideShowTogglesTextboxVisibility</b><br>Test class: tests.CheckChangeEventFormTest</td>
 <td></td>
 <td>5</td>
-<td>tests.CheckChangeEventFormTest@3c3d9b6b</td></tr>
+<td>tests.CheckChangeEventFormTest@2638011</td></tr>
+<tr>
+<td title='tests.CheckChangeEventFormTest.verifyActiveInactiveTogglesTextbox()'><b>verifyActiveInactiveTogglesTextbox</b><br>Test class: tests.CheckChangeEventFormTest</td>
+<td></td>
+<td>9</td>
+<td>tests.CheckChangeEventFormTest@2638011</td></tr>
+<tr>
+<td title='tests.OnGridButtonClickFormTest.verifyActiveIconReEnablesTextbox()'><b>verifyActiveIconReEnablesTextbox</b><br>Test class: tests.OnGridButtonClickFormTest</td>
+<td></td>
+<td>24</td>
+<td>tests.OnGridButtonClickFormTest@313b2ea6</td></tr>
+<tr>
+<td title='tests.OnTextChangedFormTest.verifyOpenDialogTextChangeOpensDialog()'><b>verifyOpenDialogTextChangeOpensDialog</b><br>Test class: tests.OnTextChangedFormTest</td>
+<td></td>
+<td>23</td>
+<td>tests.OnTextChangedFormTest@623a8092</td></tr>
+<tr>
+<td title='tests.CheckChangeEventFormTest.verifyHardFormulaCalculation()'><b>verifyHardFormulaCalculation</b><br>Test class: tests.CheckChangeEventFormTest</td>
+<td></td>
+<td>3</td>
+<td>tests.CheckChangeEventFormTest@2638011</td></tr>
 </table><p>
 </body>
 </html>

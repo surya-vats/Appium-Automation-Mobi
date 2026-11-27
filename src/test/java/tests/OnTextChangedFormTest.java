@@ -1,13 +1,14 @@
 package tests;
 
-import Page.OnTextChangedFormPage;
-import io.appium.java_client.android.AndroidDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import Page.OnTextChangedFormPage;
+import Utils.NavigationHelper;
 import base.BaseTest;
 import driver.DriverManager;
-import Utils.NavigationHelper;
+import io.appium.java_client.android.AndroidDriver;
 
 public class OnTextChangedFormTest extends BaseTest {
     AndroidDriver driver;

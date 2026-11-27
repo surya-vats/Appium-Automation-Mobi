@@ -111,7 +111,6 @@ public class ONButtonClickEventFormPage extends BasePage {
         btn.click();
     }
 
-    // TODO: "Checkchangeclosedailog" is still a guess. Confirm the real close-button text in Inspector.
     public boolean isDialogOpen() {
         boolean open = driver.findElements(AppiumBy.androidUIAutomator(
             "new UiSelector().text(\"Checkchangeclosedailog\")")).size() > 0;
